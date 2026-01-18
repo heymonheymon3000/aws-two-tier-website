@@ -19,4 +19,29 @@ This project involves deploying a **To-Do List web application** using a **two-t
 ## ☁️ AWS Architecture
 ![alt text](design/two-tier.png)
 
+#### Create ToDo VPC
+![alt text](design/vpc.png)
+
+#### Create ToDo subnets
+![alt text](design/subnets.png)
+
+#### Create ToDo internet and attach to the VPC above
+![alt text](design/igw.png)
+
+#### Create route table to direct traffic
+![alt text](design/route-tables.png)
+
+#### Create security gorups to enforce internet traffic access
+![alt text](design/security-groups.png)
+
+#### Create db to store data
+![alt text](design/db.png)
+
 ## &rarr; Final Result
+#### Add some task to Instance 1
+![alt text](design/instance-1.png)
+
+#### Keep refreshing to get Instance 2 to show
+![alt text](design/instance-2.png)
+
+
